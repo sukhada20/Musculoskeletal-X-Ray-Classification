@@ -1,0 +1,60 @@
+===== DenseNet121 | test | threshold=0.3480 =====
+              precision    recall  f1-score   support
+
+      normal     0.6855    0.6259    0.6543      1414
+    abnormal     0.6443    0.7023    0.6720      1364
+
+    accuracy                         0.6634      2778
+   macro avg     0.6649    0.6641    0.6632      2778
+weighted avg     0.6653    0.6634    0.6630      2778
+
+===== DenseNet121 | external | threshold=0.3480 =====
+               precision    recall  f1-score   support
+
+non-fractured     0.8672    0.6542    0.7458      3305
+    fractured     0.2534    0.5396    0.3449       719
+
+     accuracy                         0.6337      4024
+    macro avg     0.5603    0.5969    0.5453      4024
+ weighted avg     0.7576    0.6337    0.6741      4024
+
+===== ResNet50 | test | threshold=0.4166 =====
+              precision    recall  f1-score   support
+
+      normal     0.6838    0.7617    0.7206      1414
+    abnormal     0.7199    0.6349    0.6747      1364
+
+    accuracy                         0.6994      2778
+   macro avg     0.7018    0.6983    0.6977      2778
+weighted avg     0.7015    0.6994    0.6981      2778
+
+===== ResNet50 | external | threshold=0.4166 =====
+               precision    recall  f1-score   support
+
+non-fractured     0.8580    0.7371    0.7930      3305
+    fractured     0.2667    0.4395    0.3319       719
+
+     accuracy                         0.6839      4024
+    macro avg     0.5624    0.5883    0.5625      4024
+ weighted avg     0.7524    0.6839    0.7106      4024
+
+===== EfficientNet-B0 | test | threshold=0.4461 =====
+              precision    recall  f1-score   support
+
+      normal     0.6754    0.7666    0.7181      1414
+    abnormal     0.7187    0.6180    0.6646      1364
+
+    accuracy                         0.6937      2778
+   macro avg     0.6970    0.6923    0.6913      2778
+weighted avg     0.6966    0.6937    0.6918      2778
+
+===== EfficientNet-B0 | external | threshold=0.4461 =====
+               precision    recall  f1-score   support
+
+non-fractured     0.8429    0.7888    0.8149      3305
+    fractured     0.2503    0.3241    0.2824       719
+
+     accuracy                         0.7058      4024
+    macro avg     0.5466    0.5564    0.5487      4024
+ weighted avg     0.7370    0.7058    0.7198      4024
+

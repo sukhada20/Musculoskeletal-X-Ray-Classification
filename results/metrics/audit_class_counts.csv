@@ -1,0 +1,9 @@
+dataset,split,label_name,n,pct_of_split
+fracatlas,external_test,abnormal,719,17.87
+fracatlas,external_test,normal,3305,82.13
+mura,test,abnormal,1364,49.1
+mura,test,normal,1414,50.9
+mura,train,abnormal,12758,40.99
+mura,train,normal,18364,59.01
+mura,val,abnormal,1401,41.06
+mura,val,normal,2011,58.94

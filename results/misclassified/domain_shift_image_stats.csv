@@ -1,0 +1,5 @@
+,width,width,height,height,aspect,aspect,mean_intensity,mean_intensity
+,mean,std,mean,std,mean,std,mean,std
+dataset,,,,,,,,
+fracatlas,561.88,542.86,637.03,669.78,0.92,0.18,51.42,18.13
+mura,399.09,91.99,490.79,47.33,0.84,0.29,52.39,29.57

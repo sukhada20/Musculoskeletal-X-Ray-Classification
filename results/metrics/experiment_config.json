@@ -1,0 +1,40 @@
+{
+  "CFG": {
+    "seed": 42,
+    "img_size": 224,
+    "batch_size": 32,
+    "num_workers": 2,
+    "use_amp": true,
+    "stage1_epochs": 2,
+    "stage2_epochs": 4,
+    "early_stop_patience": 2,
+    "weight_decay": 0.0001,
+    "head_hidden": 256,
+    "head_dropout": 0.3,
+    "sched_factor": 0.5,
+    "sched_patience": 1,
+    "selection_metric": "val_auc",
+    "threshold_mode": "val_youden",
+    "n_boot": 100,
+    "latency_runs": 10,
+    "gradcam_per_category": 1,
+    "train_samples_per_class": 1000
+  },
+  "ARCH_CFG": {
+    "densenet121": {
+      "lr_head_s1": 0.001,
+      "lr_head_s2": 0.0001,
+      "lr_backbone_s2": 1e-05
+    },
+    "resnet50": {
+      "lr_head_s1": 0.001,
+      "lr_head_s2": 0.0001,
+      "lr_backbone_s2": 1e-05
+    },
+    "efficientnet_b0": {
+      "lr_head_s1": 0.001,
+      "lr_head_s2": 0.0002,
+      "lr_backbone_s2": 2e-05
+    }
+  }
+}

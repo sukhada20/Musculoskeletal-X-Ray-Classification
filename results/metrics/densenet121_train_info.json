@@ -1,0 +1,41 @@
+{
+  "model": "densenet121",
+  "total_params": 7216513,
+  "trainable_params_stage2": 2422785,
+  "train_seconds": 207.80594301223755,
+  "best": {
+    "stage": 2,
+    "epoch": 4,
+    "val_auc": 0.7532876814919798,
+    "val_loss": 0.5796462448372791
+  },
+  "arch_cfg": {
+    "lr_head_s1": 0.001,
+    "lr_head_s2": 0.0001,
+    "lr_backbone_s2": 1e-05
+  },
+  "pos_weight": 1.0,
+  "selection_metric": "val_auc",
+  "epochs_run": 6,
+  "cfg": {
+    "seed": 42,
+    "img_size": 224,
+    "batch_size": 32,
+    "num_workers": 2,
+    "use_amp": true,
+    "stage1_epochs": 2,
+    "stage2_epochs": 4,
+    "early_stop_patience": 2,
+    "weight_decay": 0.0001,
+    "head_hidden": 256,
+    "head_dropout": 0.3,
+    "sched_factor": 0.5,
+    "sched_patience": 1,
+    "selection_metric": "val_auc",
+    "threshold_mode": "val_youden",
+    "n_boot": 100,
+    "latency_runs": 10,
+    "gradcam_per_category": 1,
+    "train_samples_per_class": 1000
+  }
+}

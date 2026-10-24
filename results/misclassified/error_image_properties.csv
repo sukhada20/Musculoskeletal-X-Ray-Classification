@@ -1,0 +1,19 @@
+dataset,model,error_type,width,height,mean_intensity
+FracAtlas,densenet121,FN,470.4,546.0,47.2
+FracAtlas,densenet121,FP,558.9,640.5,56.8
+FracAtlas,densenet121,correct,575.1,647.3,49.6
+FracAtlas,efficientnet_b0,FN,609.8,722.8,49.3
+FracAtlas,efficientnet_b0,FP,579.3,628.5,57.0
+FracAtlas,efficientnet_b0,correct,549.4,624.4,50.4
+FracAtlas,resnet50,FN,650.1,776.4,49.0
+FracAtlas,resnet50,FP,581.2,641.8,59.4
+FracAtlas,resnet50,correct,542.9,615.1,49.3
+MURA test,densenet121,FN,398.6,491.7,47.7
+MURA test,densenet121,FP,417.5,482.5,52.2
+MURA test,densenet121,correct,396.0,489.9,52.1
+MURA test,efficientnet_b0,FN,366.0,499.3,47.2
+MURA test,efficientnet_b0,FP,433.6,477.4,54.4
+MURA test,efficientnet_b0,correct,404.1,487.8,52.1
+MURA test,resnet50,FN,390.3,490.3,46.9
+MURA test,resnet50,FP,413.5,483.7,54.9
+MURA test,resnet50,correct,400.9,489.2,52.1
