@@ -2,8 +2,6 @@
 
 Evaluates three ImageNet-pretrained CNNs (DenseNet121, ResNet50, EfficientNet-B0) trained on a reduced subset of the **MURA** dataset and tested on a held-out MURA split and on the external **FracAtlas** dataset.
 
-> **Research use only.** The models are not clinically validated and must not be used for diagnosis.
-
 ## Key results
 
 | Model | MURA test ROC-AUC (95% CI) | FracAtlas ROC-AUC (95% CI) |
@@ -67,7 +65,3 @@ If you use this work, cite the manuscript (add the final citation once published
 - Rajpurkar et al., *MURA: Large Dataset for Abnormality Detection in Musculoskeletal Radiographs*, arXiv:1712.06957.
 - Abedeen et al., *FracAtlas: A Dataset for Fracture Classification, Localization and Segmentation of Musculoskeletal Radiographs*, Scientific Data 10:521 (2023).
 
-## Licence
-
-Code: TBD (choose a licence, e.g. MIT, before publishing).
-Datasets are governed by their own licences (MURA, FracAtlas CC BY 4.0).
